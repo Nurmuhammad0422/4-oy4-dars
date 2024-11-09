@@ -174,13 +174,13 @@ const arr = [
         id:3,
         name:"Shohrux",
         age: 20, 
-        hobby: "Basketball",
+        hobby: "Football",
     },
     {
         id:4,
         name:"Akram",
         age: 22, 
-        hobby: "Football",
+        hobby: "Basketball",
     }
 ]
 function getHobbies(arr) {
@@ -196,7 +196,7 @@ function removeDuplicates(arr) {
 
 console.log(removeDuplicates(nums));
 // 3-.
-const numbers = [22, 112, 3, 4, 200, 123, 43];
+const numbers = [22, 112, 3, 4, 222, 123, 43];
 
 function addMaxToFirstElement(arr) {
     const max = Math.max(...arr);
